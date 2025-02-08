@@ -14,7 +14,7 @@ export async function POST(req: Request) {
     // Connect to the MongoDB database
     await client.connect();
     const db = client.db("team_manager_db");
-    const collection = db.collection("register_user");
+    const collection = db.collection("register_users");
 
     // Insert the form data into MongoDB
     const result = await collection.insertOne(body);
