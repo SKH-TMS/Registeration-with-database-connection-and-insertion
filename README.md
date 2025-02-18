@@ -15,6 +15,7 @@ Repositry Number: T8
 ### Version 0 (v0)
 
 - Simple global styling is applied in globals.css
+- Passord is not encrypted before entering into database; Registration Page.
 
 ## How to Run:
 
